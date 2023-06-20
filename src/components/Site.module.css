@@ -1,0 +1,40 @@
+.header{
+    background-color: #282c33;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.body:last-child{
+display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-height: 700px;
+}
+
+.nav{
+    padding-left: 10px;
+    margin-bottom: 450px;
+    font-weight: bold;
+   background-color: white;
+    width: 10%;
+    color:#282c34;
+    font-size: 30px;
+}
+
+.content{
+    background-color:#282c34;
+    width: 85%;
+    color: white;
+    font-size: 0;
+}
+
+.navLink{
+    color: #282c33;
+    text-decoration: none;
+}
+
+.nav a.active{
+    color: rgba(40, 44, 51, 0.74);
+    text-decoration: underline;
+}

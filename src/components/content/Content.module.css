@@ -1,0 +1,45 @@
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.block__photo img {
+    max-width:600px ;
+    min-height:400px;
+    padding: 0;
+}
+
+
+.block__about {
+    padding: 0 50px;
+}
+
+.name__price {
+    margin-right: 40px;
+    text-align: end
+}
+
+.name__price div:first-child {
+    font-size: 60px;
+    padding-left: 20px;
+}
+
+.name__price div:last-child {
+    font-size: 25px;
+    padding-right: 100px;
+}
+
+.about {
+    font-size: 20px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
